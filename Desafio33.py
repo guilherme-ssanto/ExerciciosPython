@@ -1,0 +1,7 @@
+valor1 = int(input("Primeiro valor: "))
+valor2 = int(input("Segundo valor: "))
+valor3 = int(input("Terceiro valor: "))
+maior = max(valor1, valor2, valor3)
+menor = min(valor1, valor2, valor3)
+print("O menor valor digitado foi {}".format(menor))
+print("O maior valor digitado foi {}".format(maior))
